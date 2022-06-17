@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[connecting to database]]>
+    </line>
+    <line>
+      <![CDATA[disconnectconnecting to database]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-06-08T10:52:53 IST" name="Failed suite [Failed suite [Suite]]" finished-at="2022-06-08T10:53:14 IST" duration-ms="20665">
+    <groups>
+    </groups>
+    <test started-at="2022-06-08T10:52:53 IST" name="Test(failed)(failed)" finished-at="2022-06-08T10:53:14 IST" duration-ms="20665">
+      <class name="testng.batch3">
+        <test-method is-config="true" signature="connDb()[pri:0, instance:testng.batch3@2ea41516]" started-at="2022-06-08T10:52:53 IST" name="connDb" finished-at="2022-06-08T10:52:53 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[connecting to database]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- connDb -->
+        <test-method is-config="true" signature="openAppthree()[pri:0, instance:testng.batch3@2ea41516]" started-at="2022-06-08T10:52:53 IST" name="openAppthree" finished-at="2022-06-08T10:53:07 IST" duration-ms="13572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppthree -->
+        <test-method signature="login()[pri:0, instance:testng.batch3@2ea41516]" started-at="2022-06-08T10:53:07 IST" name="login" finished-at="2022-06-08T10:53:11 IST" duration-ms="4287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="sales()[pri:0, instance:testng.batch3@2ea41516]" started-at="2022-06-08T10:53:11 IST" name="sales" finished-at="2022-06-08T10:53:13 IST" duration-ms="1273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sales -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testng.batch3@2ea41516]" started-at="2022-06-08T10:53:13 IST" name="closeApp" finished-at="2022-06-08T10:53:14 IST" duration-ms="1467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="disconnDb()[pri:0, instance:testng.batch3@2ea41516]" started-at="2022-06-08T10:53:14 IST" name="disconnDb" finished-at="2022-06-08T10:53:14 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[disconnectconnecting to database]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- disconnDb -->
+      </class> <!-- testng.batch3 -->
+    </test> <!-- Test(failed)(failed) -->
+  </suite> <!-- Failed suite [Failed suite [Suite]] -->
+</testng-results>

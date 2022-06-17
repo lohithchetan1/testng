@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+<run>
+<include name="smoke"/>
+<include name="regression"/>
+<include name="sanity"/>
+</run>
+</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testng.smokeRegression4"/>
+      <class name="testng.SmokeSanity3"/>
+      <class name="testng.SmokeSanity2"/>
+      <class name="testng.SmokeSanity"/>
+      <class name="testng.SmokeSanity5"/>
+      <class name="testng.SmokeSanity4"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
